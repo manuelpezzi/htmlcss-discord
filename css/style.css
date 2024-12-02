@@ -4,12 +4,16 @@ header{
     background-size: cover;
     }
 .logo{
-    height: 50px;
-    width: 50px;
+    height: 10%;
+    width: 10%;
+}
+.nav-items{
+    flex-basis: 30%;
 }
 
 .flex{
     display: flex;
+    padding-left: 5%;
 }
 
 .jc-between{
@@ -28,7 +32,7 @@ header{
 }*/
 .center{
    color: white;
-   gap: 10px;
+   gap: 5%;
    font-size: xx-small;
    /*padding-top: 20px;*/
 }
@@ -38,11 +42,12 @@ header{
    border: none;
    padding: 5px;
    padding-right: 10px;
-  margin-right: 50px;
+  margin-right: 10px;
 }
 .padding-top{
-    padding-top: 30px;
-    padding-left: 30px;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-weight: bold;
 }
 
 .header-text-center{
@@ -68,19 +73,21 @@ header{
 .black{
     background-color: black;
     color: white;
-    border-radius: 10px 5px 10px 5px;
-    border-radius: 8px;
+    border-radius:  55px 10px 15px 20px;
+    border-radius: 20px;
     border: none;
-    padding: 5px;
-    font-size: xx-small;
-    margin-bottom: 40px;
+    padding: 8px;
+    font-size:medium;
+    margin-bottom: 10%;
+    gap: 10%;
 }
 .buttton-1{
-    border-radius: 10px 5px 10px 5px;
-    border-radius: 8px;
+    border-radius: 15px 20px 15px 20px;
+    border-radius: 20px;
     border: none;
     padding: 5px;
-    font-size: xx-small;
+    font-size: medium;
+   
 }
 .white{
     color: white;
@@ -88,10 +95,9 @@ header{
     width: 50%;
 }
 .padding-top1{
-    padding-top: 20px;
-    font-size: xx-small;
-    padding-left: 30px;
-    padding-bottom: 10px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 3%;
 
 }
 
