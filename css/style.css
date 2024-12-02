@@ -13,7 +13,7 @@ header{
 
 .flex{
     display: flex;
-    padding-left: 5%;
+   
 }
 
 .jc-between{
@@ -33,7 +33,7 @@ header{
 .center{
    color: white;
    gap: 5%;
-   font-size: xx-small;
+   font-size:medium;
    /*padding-top: 20px;*/
 }
 .acces{
@@ -69,6 +69,15 @@ header{
 }
 .mac{
     background-color: #7289DA;
+    border-radius:  55px 10px 15px 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    font-size:medium;
+    margin-bottom: 10%;
+    gap: 10%;
+    color: white;
+    margin-bottom: 5%;
 }
 .black{
     background-color: black;
@@ -80,6 +89,7 @@ header{
     font-size:medium;
     margin-bottom: 10%;
     gap: 10%;
+    
 }
 .buttton-1{
     border-radius: 15px 20px 15px 20px;
@@ -96,42 +106,48 @@ header{
 }
 .padding-top1{
     padding-top: 2%;
-    padding-left: 5%;
+    padding-left: 7%;
     padding-bottom: 3%;
-
+}
+h3{
+    background-image: url(../img/stars.svg);
+    padding-bottom: 20px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+     
 }
 
 .title{
     color: #7289DA;
+    
+    
 
 }
 .stretch{
     align-items: stretch;
 }
 .padding{
-    padding-top: 5px;
+    padding-top: 10%;
 }
 .gap{
     gap: 10px;
 }
 .social-box{
-    width: 10%;
-  padding-left: 15%;
+    width: 5%;
+  padding-left: 5%;
 }
 footer nav{
     flex-grow: 1;
-    padding-left: 25%;
+    padding-left: 10%;
     
 }
 li{
     padding-top: 5%;
 }
 
-.picture-box{
-    width: 200px;
-    height: 150px;
+.picture-box{ 
     flex-shrink: 0;
-    background-color: red;
+   
 }
 .text-align{
     text-align: center;
@@ -139,4 +155,16 @@ li{
 .margin0{
     margin: 0 auto;
     width: 50%;
+}
+footer{
+    background-color:#23272A ;
+}
+.white-list{
+    color: white;
+}
+li{
+    color: white;
+}
+ul{
+    width: 25%;
 }
