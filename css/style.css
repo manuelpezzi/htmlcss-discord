@@ -45,7 +45,7 @@ header{
   margin-right: 10px;
 }
 .padding-top{
-    padding-top: 10%;
+    padding-top: 20px;
     padding-left: 10%;
     font-weight: bold;
 }
@@ -120,9 +120,6 @@ header{
    
      
 }
-.img4{
-
-}
 
 .title{
     color: #7289DA;
@@ -134,7 +131,7 @@ header{
     align-items: stretch;
 }
 .padding{
-    padding-top: 10%;
+    padding-top: 20px;
 }
 .gap{
     gap: 10px;
@@ -184,4 +181,22 @@ ul{
 }
 .width-tech{
     width: 200px;
+}
+.png-ita{
+width: 20px;
+height: 20px;
+display: inline;
+}
+.png-varie{
+    width: 20px;
+height: 20px;
+display: inline;
+margin-left: 20px;
+margin-top: 50px;
+}
+.margin-ita{
+    margin-top: 20px;
+}
+.padding-logo{
+    padding: 20px 50px;
 }
