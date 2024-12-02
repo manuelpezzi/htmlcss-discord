@@ -15,24 +15,34 @@ header{
 .jc-between{
     justify-content: space-between;
 }
+.line-center{
+    align-items: center;
+}
+.text-center{text-align: center;}
 
-
-.discord{
+/*.discord{
     background-color: aqua;
     height: 100px;
     width: 200px;
-  
-}
+    padding: 50px 50px;
+}*/
 .center{
    color: white;
    gap: 10px;
-   
+   font-size: small;
+   /*padding-top: 20px;*/
 }
 .acces{
-    background-color: red;
-    height: 100px;
-    width: 200px;
-
+   border-radius: 10px 5px 10px 5px;
+   border-radius: 8px;
+   border: none;
+   padding: 5px;
+   padding-right: 10px;
+  margin-right: 50px;
+}
+.padding-top{
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .header-text-center{
@@ -60,8 +70,18 @@ header{
     color: white;
 }
 .white{
-    color: yellow;
+    color: white;
+    margin: 0% auto;
+    width: 50%;
 }
+.padding-top1{
+    padding-top: 20px;
+    font-size: small;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+
 .title{
     color: #7289DA;
 
@@ -99,4 +119,5 @@ li{
 }
 .margin0{
     margin: 0 auto;
+    width: 50%;
 }
