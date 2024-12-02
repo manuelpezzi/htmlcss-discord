@@ -67,6 +67,9 @@ header{
 .grey{
     background-color: #f6f6f699;
 }
+.padding-grey{
+    padding: 30px 0;
+}
 .mac{
     background-color: #7289DA;
     border-radius:  55px 10px 15px 20px;
@@ -109,12 +112,16 @@ header{
     padding-left: 7%;
     padding-bottom: 3%;
 }
-h3{
+.stellar{
     background-image: url(../img/stars.svg);
-    padding-bottom: 20px;
-    background-size: contain; 
+    padding: 20px;
+    background-size: contain;
     background-repeat: no-repeat;
+   
      
+}
+.img4{
+
 }
 
 .title{
@@ -133,7 +140,7 @@ h3{
     gap: 10px;
 }
 .social-box{
-    width: 5%;
+
   padding-left: 5%;
 }
 footer nav{
@@ -167,4 +174,14 @@ li{
 }
 ul{
     width: 25%;
+}
+
+.tech-text{
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.width-tech{
+    width: 200px;
 }
