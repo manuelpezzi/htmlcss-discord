@@ -29,7 +29,7 @@ header{
 .center{
    color: white;
    gap: 10px;
-   font-size: small;
+   font-size: xx-small;
    /*padding-top: 20px;*/
 }
 .acces{
@@ -68,6 +68,19 @@ header{
 .black{
     background-color: black;
     color: white;
+    border-radius: 10px 5px 10px 5px;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    font-size: xx-small;
+    margin-bottom: 40px;
+}
+.buttton-1{
+    border-radius: 10px 5px 10px 5px;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    font-size: xx-small;
 }
 .white{
     color: white;
@@ -76,7 +89,7 @@ header{
 }
 .padding-top1{
     padding-top: 20px;
-    font-size: small;
+    font-size: xx-small;
     padding-left: 30px;
     padding-bottom: 10px;
 
